@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <VAST version="4.0">
+          <Ad id="SINGLE_AD" sequence="1">
+            <InLine>
+              <AdSystem>Test</AdSystem>
+              <AdTitle>Single Test Ad</AdTitle>
+              <Impression>
+                <![CDATA[ http://localhost:3000/track?event=impression ]]>
+              </Impression>
+              <Creatives>
+                <Creative id="1">
+                  <Linear skipoffset="00:00:02">
+                    <Duration>00:00:05</Duration>
+                    <TrackingEvents>
+                      <Tracking event="start">http://localhost:3000/track?event=start</Tracking>
+                      <Tracking event="complete">http://localhost:3000/track?event=complete</Tracking>
+                    </TrackingEvents>
+                    <VideoClicks>
+                      <ClickThrough>
+                        <![CDATA[ https://example.com ]]>
+                      </ClickThrough>
+                    </VideoClicks>
+                    <MediaFiles>
+                      <MediaFile delivery="progressive" type="video/mp4" width="1280" height="720" bitrate="2000">
+                        <![CDATA[https://proxy.get-save.com/rr1---sn-ajq0cc-5q.googlevideo.com/videoplayback?expire=1780429304&ei=mN0eaveUAciLr9gP9Z7x8Ac&ip=2a0f%3Ae441%3A2676%3A2002%3Aeaf1%3Ae0f%3A9c5a%3Adac4&id=o-AMaEfvI3Jda0BDeMdJurdP2DL_nbhXpOSCw-XBS9HQ_2&itag=18&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&met=1780407704%2C&mh=0c&mm=31%2C29&mn=sn-ajq0cc-5q%2Csn-ajaig5-5v&ms=au%2Crdu&mv=m&mvi=1&pl=38&rms=au%2Cau&initcwndbps=810000&bui=AbKmrwrluqdG5nWSOyp3qEu-_y3CnbEvef-T6_E41Ln1qbj5ets0wLgA9F0400FbA-VGMOhcCICFoYXR&spc=96Xrv5dI9rWvIMwGQWywL-jigEpEPYln5GGo4JVT_MUKG4g63ij8&vprv=1&svpuc=1&mime=video%2Fmp4&rqh=1&cnr=14&ratebypass=yes&dur=4.388&lmt=1724450645166374&mt=1780407003&fvip=2&fexp=51565115%2C51565681&c=ANDROID_VR&txp=4430434&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Ccnr%2Cratebypass%2Cdur%2Clmt&sig=AHEqNM4wRQIgGK7zc1RD16NooW43ueOwIWSRWw-6AHjWlaDgBg1qruwCIQD_mOmsCAyuekFoft1wWzKcXSBXYk4M6MrldyjVkqUlow%3D%3D&lsparams=met%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRQIhAPyv4-Y4Mi4ecIaVL3wkFFd7s-MhqvbXC-Uquc-MDqfzAiACGzccTLP5a9QnpawjNB4gNze7Sy5YX_dr-zuPed2vVQ%3D%3D&title=Funniest%205%20Second%20Video%20Ever%20[get.gt]]]>
+                      </MediaFile>
+                    </MediaFiles>
+                  </Linear>
+                </Creative>
+              </Creatives>
+            </InLine>
+          </Ad>
+        </VAST>
